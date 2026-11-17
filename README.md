@@ -1,4 +1,25 @@
-# PEAKAI Bot — Daily Check-in Automation
+# PeakAI Bot
+
+**Versi:** 1.0.0 · **Harga:** Rp 120.000 (~$8) · **Kontak pembelian:** [@rmndkyl](https://t.me/rmndkyl)
+
+Dirender dari `logs/peakai.log`: sesi valid, Capsolver menyelesaikan captcha, lalu `Daily check-in claimed` (`amount: 20`). Handle akun di-mask jadi `acc01`.
+
+## Kebutuhan
+
+| Item | Detail |
+|---|---|
+| Runtime | Node.js 18+ |
+| Wallet | EVM / sesuai chain proyek (kamu sendiri) |
+| Proxy | tidak perlu |
+| Captcha | tidak perlu |
+| Akses | akun proyek yang kamu kelola sendiri |
+
+## Pembayaran
+
+E-Wallet: DANA / GoPay / ShopeePay · Bank: BCA / Seabank · Crypto: contact for wallet address.
+Pembeli menghubungi [@rmndkyl](https://t.me/rmndkyl), kirim bukti transfer, lalu terima license key.
+
+---
 
 Automated daily check-in for PeakAI Genesis Incentive (Stage 1).
 Earn Genesis points → claim USDC (1,500 Genesis = 1 USDC).
@@ -150,8 +171,8 @@ Captcha: Cloudflare Turnstile sitekey `0x4AAAAAACyER7nGDFnRwQCo`
 | Lisensi | Harga | Fitur |
 |---------|-------|-------|
 | **Single** | Rp 120.000 / ~$8 | 1 device, lifetime |
-| **Bundle (3 bot)** | Rp 250.000 / ~$16 | Pilih 3 bot, hemat 20% |
-| **Pro (semua bot)** | Rp 1.100.000 / ~$70 | Semua bot + update, hemat 30% |
+| **Bundle (3 bot)** | Rp 120.000 / ~$16 | Pilih 3 bot, hemat 20% |
+| **Pro (semua bot)** | Rp 120.000 / ~$70 | Semua bot + update, hemat 30% |
 
 **Cara beli:** Chat [@OG_LYID_bot](https://t.me/OG_LYID_bot) di Telegram → /buy
 
@@ -166,7 +187,6 @@ Captcha: Cloudflare Turnstile sitekey `0x4AAAAAACyER7nGDFnRwQCo`
 | `Cannot find module` | Jalankan `npm install` di folder bot |
 | `insufficient balance` | Pastikan wallet punya cukup token untuk gas |
 | `429 Too Many Requests` | Tunggu 30-60 detik, bot auto-retry |
-| Proxy error | Cek `proxy.txt` — pastikan proxy aktif |
 | Bot diam/tidak jalan | Cek `config.json` — pastikan API key valid |
 | License invalid | Chat [@OG_LYID_bot](https://t.me/OG_LYID_bot) → /verify |
 
